@@ -1,0 +1,113 @@
+/* Resetting some default browser styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Applying font-family */
+body {
+    font-family: 'Times New Roman', sans-serif;
+    background-color: #000202; /* Light gray background */
+    color: #516587; /* Dark text color */
+}
+
+/* Styling the header */
+header {
+    background-color: #4dec8273; /* Dark gray background */
+    color: #d3e0df; /* White text color */
+    padding: 10px; /* 20 pixels of padding on all sides */
+    text-align: center; /* Center-aligning text */
+}
+
+/* Styling the main heading */
+header h1 {
+    font-size: 4em; /* Large font size */
+    margin-bottom: 10px; /* Bottom margin */
+}
+
+/* Styling the navigation */
+nav ul {
+    list-style-type: none; /* Removing bullet points from the list */
+}
+
+nav ul li {
+    display: inline; /* Making list items display inline */
+    margin-right: 20px; /* Adding right margin between list items */
+}
+
+nav ul li a {
+    color: #fff; /* White text color for links */
+    text-decoration: none; /* Removing underline from links */
+    font-weight: bold; /* Making links bold */
+}
+
+nav ul li a:hover {
+    color: #ffd700; /* Changing link color on hover */
+}
+
+/* Styling sections */
+section {
+    padding: 30px 20px; /* 50 pixels top and bottom, 20 pixels left and right padding */
+    text-align: center; /* Center-aligning text */
+}
+
+/* Styling section headings */
+section h2 {
+    margin-bottom: 10px; /* Adding bottom margin to section headings */
+    color: #333; /* Dark text color */
+}
+
+/* Styling contact info */
+.contact-info p {
+    margin-bottom: 5px; /* Bottom margin for paragraphs */
+}
+
+.contact-info a {
+    color: #333; /* Dark text color for links */
+    text-decoration: underline; /* Underline for links */
+}
+
+.contact-info a:hover {
+    color: #333; /* Dark text color for links on hover */
+    text-decoration: none; /* Removing underline on hover */
+}
+
+/* Styling contact form */
+.contact-form {
+    margin-top: 10px; /* Top margin */
+}
+
+.contact-form label {
+    display: block; /* Display block for labels */
+    margin-bottom: 5px; /* Bottom margin for labels */
+    color: #333; /* Dark text color */
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 30%; /* Full width */
+    padding: 8px; /* Padding */
+    margin-bottom: 10px; /* Bottom margin */
+    border: 1px solid #ccc; /* Border */
+    border-radius: 5px; /* Border radius */
+    box-shadow: none; /* No box shadow */
+}
+
+.contact-form textarea {
+    height: 100px; /* Textarea height */
+}
+
+.contact-form input[type="submit"] {
+    background-color: #333; /* Dark gray background */
+    color: #fff; /* White text color */
+    border: none; /* No border */
+    padding: 10px 20px; /* Padding */
+    cursor: pointer; /* Pointer cursor */
+    border-radius: 5px; /* Border radius */
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: #555; /* Darker gray background on hover */
+}
